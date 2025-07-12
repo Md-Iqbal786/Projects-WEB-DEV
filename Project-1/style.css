@@ -59,14 +59,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #b442f1, #4ce4ff);
+  background: linear-gradient(to bottom, #071925, #019fe0);
   color: rgb(14, 91, 47);
+  mix-blend-mode: transparent;
   text-align: center;
   font-size: 2rem;
 }
 
 h1{
-    color:#035f41;
+    color:#eaeaea;
 }
 
 #about, #projects, #contact {
@@ -104,13 +105,13 @@ form {
   gap: 1rem;
 }
 
-/* input, textarea {
+input, textarea {
   padding: 0.8rem;
   background: rgb(179, 240, 249);
   box-shadow: 0 3px 10px rgb(102, 104, 104);
   border: 1px solid #6c6a6a;
   border-radius: 9px;
-} */
+}
 
 button {
   padding: 0.8rem;
